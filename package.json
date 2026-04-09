@@ -1,0 +1,33 @@
+{
+	"name": "louisiana-live-traffic-model",
+	"version": "0.0.1",
+	"description": "Real-time traffic analysis platform for Louisiana highways using 511la.org camera feeds, computer vision (YOLOv8), and interactive map overlays.",
+	"keywords": [
+		"louisiana",
+		"highway",
+		"interstate",
+		"traffic",
+		"live",
+		"model",
+		"map",
+		"511la"
+	],
+	"homepage": "https://github.com/aaron-meche/louisiana-live-traffic-model#readme",
+	"bugs": {
+		"url": "https://github.com/aaron-meche/louisiana-live-traffic-model/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aaron-meche/louisiana-live-traffic-model.git"
+	},
+	"license": "ISC",
+	"author": "aaron-meche",
+	"type": "commonjs",
+	"main": "index.js",
+	"directories": {
+		"test": "tests"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	}
+}

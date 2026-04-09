@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  db:
+    image: timescale/timescaledb:latest-pg14
+    container_name: la_traffic_db
+    environment:
+      POSTGRES_DB: la_traffic
+      POSTGRES_USER: la_traffic
+      POSTGRES_PASSWORD: la_traffic
+    ports:
+      - "5432:5432"
+    volumes:
+      - timescale_data:/var/lib/postgresql/data
+
+volumes:
+  timescale_data:
